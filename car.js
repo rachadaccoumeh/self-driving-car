@@ -8,6 +8,7 @@ class Car {
         this.speed = 0;
         this.acceleration = 0.2;
 
+
         this.controls = new Controls();
     }
 
