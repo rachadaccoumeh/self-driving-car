@@ -16,6 +16,7 @@ class Car {
     }
 
     update() {
+
         this.#movement();
     }
 
