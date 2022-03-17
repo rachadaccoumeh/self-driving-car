@@ -11,7 +11,6 @@ class Car {
         this.friction = 0.05;
         this.angle = 0;
 
-
         this.controls = new Controls();
     }
 
@@ -31,6 +30,7 @@ class Car {
             this.width,
             this.height
         );
+        ctx.fillStyle="black"
         ctx.fill();
         ctx.restore()
     }
