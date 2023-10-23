@@ -7,3 +7,26 @@ body{
 #canvas{
     background: lightgray;
 }
+.leaderboard,.score,.author{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 10px; 
+    color: #fff;
+}
+.score{
+    left: 0;
+}
+.author{
+    right: initial;
+    top: initial;
+    bottom: 0;
+    left: 0;
+}
+.author span{
+    color: crimson;
+    font-weight: bold;
+}
+

@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
     <title>Self Driving Car</title>
-</head>
-<body>
-<canvas id="canvas">Try Another Browser</canvas>
-<script src="sensor.js"></script>
-<script src="utils.js"></script>
-<script src="road.js"></script>
-<script src="car.js"></script>
-<script src="controls.js"></script>
-<script src="main.js"></script>
-</body>
+  </head>
+  <body>
+    <section id="score" class="score"></section>
+    <section class="leaderboard">
+      <h1>Leaderboard</h1>
+      <ol id="leaderboard"></ol>
+    </section>
+    <section class="author">
+      <p>
+        Made with <span class="heart">&hearts;</span> by
+        <span>Rachad Accoumeh</h1>
+      </p>
+    </section>
+    <canvas id="canvas">Try Another Browser</canvas>
+    <script src="sensor.js"></script>
+    <script src="utils.js"></script>
+    <script src="road.js"></script>
+    <script src="car.js"></script>
+    <script src="controls.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
